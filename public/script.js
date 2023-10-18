@@ -86,7 +86,7 @@ $(function () {
         const enabled=mystream.getVideoTracks()[0].enabled
         if (enabled){
             mystream.getVideoTracks()[0].enabled=false
-            html=`<i class="fas fa-video-camera-slash"><i/>`
+            html=`<i class="fas fa-video-slash"><i/>`
             $("#stop_video").toggleClass("redBg")
             $("#stop_video").html(html)
         }
