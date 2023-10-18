@@ -99,6 +99,9 @@
   left: 28px;
   color: #fff;
 }
+.redBg{
+  background-color: rgb(255, 46, 46);
+}
 
 @media (max-width: 700px) {
   #show_chat {
